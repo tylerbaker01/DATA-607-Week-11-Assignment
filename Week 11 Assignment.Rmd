@@ -1,0 +1,64 @@
+---
+title: "DATA 607 Week 11 Assignment"
+author: "Tyler Baker"
+date: "11/3/2021"
+output: html_document
+---
+
+# Week 11 Assignment
+## Recommender Systems
+
+Webite I chose was Thriftbooks.com
+link: https://www.thriftbooks.com/
+
+Goals:
+1. Perform a scenario design analysis.
+2. Attempt to reverse engineer what you can about the site, from the site's interface and from any other information.
+3. Include recommenatioins on how the site could improve its recommendation system.
+4. Post R Markdown file in GitHub and upload url to discusion post in BB.
+
+
+# Part 1
+## Scenario Design Analysis
+
+To perform a scenario design analysis we simply must answer these three questions through the lens of the entity.
+
+1. Who are your target users?
+
+My target users are people who love books.
+
+2. What are their key goals?
+
+My users want two things. First, they want to be able to buy affordable used books. Secondly, they would like to be able to discover new books which they would enjoy to read.
+
+3. How can I help my users accomplish their goals?
+
+To best help my users with buying affordablel books, I need to find used books that could be resold. I also need to allow my users to be able to sell used books to each other.
+To best help my users with discovering new books, I need to create a strong recommendation system. I could attach a sort of community to my site where my users could communicate within an area of topic, such as a genre or an author.
+
+# Part 2
+## Attempt to reverse engineer
+
+The main thing that I can gather is the thriftbooks works by having employees hunt for books in fairly good condition that can be resold. I imagine that a good chunk of the books come from a thriftstore. I also believe that you can donate books to Thriftbooks.
+In terms of how the website works I believe that there is a giant database that contains all of the books Thriftbooks posesses. When you search for book it populates all of the versions of that book which Thriftbooks currently owns, or has owned.
+
+# Part 3
+## Recommender Recommendations
+
+Link: https://www.youtube.com/watch?v=n3RKsY2H-NE
+
+I watched this quick Youtube (link is included above) video to better understand the approach to recommender systems. From this I now understand that there are two basic approaches to recommender systems. The first is called "content filtering", and the other is "collaborative filtering". Content filtering is where recommendations are populated by previous items the user has engaged with. Collaborative filtering is where recommendations are populated by the likes of "similar" users.
+
+Thiftbooks appears to use a content filtering system. Content filtering systems are great because they are simple, however becuase of this they are not the most accurate. 
+
+Although I do not recieve unaccurate recommendations. I do not like the recommendation system. When you are a user they will give you recommendations based on exactly one book you have previously purchased. Thus, it feels like an even more basic content filtering system then what the original Netlix used. 
+
+To improve the site, I would recommend switching to a collaborative filtering system. I believe this will allow for a better recommendation system. I imagine that it will become more accurate as the amount of users increses.
+
+I also understand that a collaborative filtering system is more complicated and could require more money than Thriftbooks can provide. I will offer a second improvement option assuming that Thriftbooks cannot afford a collaborative filtering system.
+
+Instead of a collaborative filtering system, Thriftbooks could do a sort of semi combination. First, they could still improve their recommendation system. While it is kind of a nice feature to offer recommendations off of only one book that I have previously purchased, I would also want to be recommended books based on all of the books I have purchased and reviewed. This approach will allow me to find books that are only slightly connected to some of the books I have bought. Outside of this, I belive that Thriftbooks should offer something similar to Reddit but where every community is based on genres, subgenres, or authors.
+
+
+
+
